@@ -8,7 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
+    secure: Zrm/ASNCYPhlsm/HIdZCwVRq6tzuwuEZfgYhWrmrlrvXND2eeYC1/8xUVuxpp/Joj8y/PcVXantkKNCCUOG2p9TszAUGQ/VQRyd842zOsNPdsUDYv2/T8oRfV42AIMzyuo8Ytg7i5aX7TbGXN9aHNiGXPFRQF/N55pEssd7ih2yRBS5ApU/VuL0ECWzZmIWZbyBky9TNAK3biBs1OjfIHBuwF/yJHL6Pe7a/6yGKf7sAUGVAzZKH77wkU+JVALptHNiqQuoWXlQlw8ljNtoPTwnH410Q96+L0Lha2h79yIngQq8Birf/e5duqGrLhRjViYiFbTaA2TYQxt99q+4SOpbGoiUATilb42l7r79P/02vgdj308tvMnC8fG6WSeavxknt2jqgJZgin6jSY6spfzn/YPydoknV0yaNJKiwNZjF+bPcSJtl5jJOYnZscwEX1RGv1FpXAL6tuizR2pCMx8rQEiDNaju94+aLPGDAfD4CqdHSF/A+v5WJqs782+J1vEfL50sc6rMGmEDcBs72cLAlbIQqfKwyIaqcTvE+eZ0eftDZKkOkjOydpCLvsWbnZmSLIny09VJXcVlTXXTZtX/i9RURlF5Rr2Xn3rHMa0gSXCp2dCXGF4Otss10sPpVoFoqR924LcJwCVF4r1JsBtuEppuWVi3OLUhDwQ7t/4g=
   app: fierce-eyrie-80221
   on:
     repo: manuelleungchen/unittest-travis-heroku
+  skip_cleanup: 'true'
